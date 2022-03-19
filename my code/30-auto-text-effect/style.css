@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.speed-wrapper {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: pink;
+}
