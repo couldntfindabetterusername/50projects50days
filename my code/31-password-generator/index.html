@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31 password generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h2>Password generator</h2>
+        <div class="password-container">
+            <span id="password"></span>
+            <div class="copy">Copy</div>
+        </div>
+        <div class="container">
+            <label for="length">Password length</label>
+            <input type="number" name="length" id="length" value="20">
+        </div>
+        <div class="container">
+            <label for="uppercase">Include uppercase letters</label>
+            <input type="checkbox" name="uppercase" id="uppercase" checked>
+        </div>
+        <div class="container">
+            <label for="lowercase">Include lowercase letters</label>
+            <input type="checkbox" name="lowercase" id="lowercase" checked>
+        </div>
+        <div class="container">
+            <label for="numbers">Include numbers</label>
+            <input type="checkbox" name="numbers" id="numbers" checked>
+        </div>
+        <div class="container">
+            <label for="symbols">Include symbols</label>
+            <input type="checkbox" name="symbols" id="symbols" checked>
+        </div>
+
+        <button id="generate">Generate password</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
